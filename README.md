@@ -3,4 +3,4 @@
 using this tutorial:
 http://jmcglone.com/guides/github-pages/
 
-currently on step 7
+currently on NEXT STEPS
