@@ -13,6 +13,7 @@
     <header>
         <!-- START NAV -->
         <nav id="navbar">
+            <img src="" alt="DoodleDeBug Logo">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects"> Projects</a></li>
@@ -22,8 +23,8 @@
     </header>
     <main>
         <!-- START WELCOME SECTION -->
-        <section id="welcome-section">
-            <h1>Hello I'm M</h1>
+        <section id="hero">
+            <h1>Hello, I'm M</h1>
             <p>a developer</p>
         </section><!-- END WELCOME SECTION -->
 
@@ -33,11 +34,13 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nulla explicabo fugit placeat, iure
                 laudantium vitae, illo temporibus doloremque adipisci delectus voluptas veritatis? Labore ullam aperiam
                 perferendis tenetur nostrum consequuntur.</p>
+        </section><!-- end about SECTION -->
+        <section class="skills">
             <h3>Skills</h3>
             <div class="skills-lists">
                 <ul>
-                    <li>Html</li>
-                    <li>Css</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                     <li>JavaScript</li>
                 </ul>
                 <ul>
@@ -45,13 +48,20 @@
                     <li>Flutter</li>
                     <li>Figma</li>
                 </ul>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>MySQL</li>
+                </ul>
             </div>
-        </section><!-- end about SECTION -->
+        </section>
+
+
 
         <!-- START PROJECTS SECTION -->
         <section id="projects">
             <h2>My Projects</h2>
-            <p>These are some things I've worked on</p>
+            <p>Here are some things I've worked on</p>
 
             <div class="project-grid">
                 <a href="">
@@ -84,7 +94,6 @@
                         <h3>TBC</h3>
                     </div>
                 </a>
-
                 <a href="">
                     <div class="project-tile">
                         <img src="" alt="project-image">
@@ -92,29 +101,27 @@
                     </div>
                 </a>
             </div>
-
         </section><!-- end PROJECTS SECTION -->
-
+        <div class="divider"></div>
         <!-- START CONTACT SECTION -->
         <section id="contact">
             <h2>Get in touch!</h2>
-            <div class="contact-links">
-                <a href="" id="profile-link" target="_blank">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogoeps.com%2Fwp-content%2Fuploads%2F2014%2F02%2F25231-github-cat-in-a-circle-icon-vector-icon-vector-eps.png&f=1&nofb=1" alt="github-logo-icon">
-                    <p>GitHub</p>
-                </a>
-                <a href="">
-                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcarbonliteracy.com%2Fwp-content%2Fuploads%2F2018%2F02%2F2000px-TK_email_icon.svg.png&f=1&nofb=1" alt="email-icon">
-                    <p>Email</p>
-                </a>
+            <div class="container">
+                <form action="">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                    <input type="email" id="email" name="email" placeholder="Your email address.." required>
+                    <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </section><!-- end CONTACT SECTION -->
-
     </main>
 
     <!-- START FOOTER SECTION -->
     <footer>
         <p>Developed by M</p>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer><!-- end FOOTER SECTION -->
 </body>
 
