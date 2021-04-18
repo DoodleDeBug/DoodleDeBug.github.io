@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Economica:wght@700&family=Rancho&family=Ranga&family=Snippet&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +23,7 @@ header {
   left: 0;
   top: 0;
   z-index: 10;
+  font-family: "Ranga", cursive;
 }
 
 #navbar a:hover {
@@ -37,6 +40,9 @@ header {
   margin: 0px 20px;
 }
 
+#logo {
+  margin-right: 20px;
+}
 /* global main section */
 main {
   position: relative;
@@ -51,11 +57,13 @@ h2 {
   margin-bottom: 15px;
   letter-spacing: 3px;
   color: #713770;
+  font-family: "Economica", sans-serif;
 }
 
 p {
   line-height: 1.3;
   color: #12003a;
+  font-family: "Snippet", sans-serif;
 }
 
 /* welcome section */
@@ -72,15 +80,15 @@ p {
 
 h1 {
   font-size: 80px;
-  font-family: ;
-  letter-spacing: 5px;
+  font-family: "Rancho", cursive;
+  letter-spacing: 10px;
   color: #af3768;
 }
 
 #hero p {
   font-size: 25px;
-  font-family: ;
-  letter-spacing: 15px;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 12px;
 }
 /* about section */
 
@@ -88,10 +96,11 @@ h1 {
   background-color: #ebeaf2;
 }
 
-#about h3 {
+.skills h3 {
   margin: 30px 0 0;
   text-align: center;
   color: #ebeaf2;
+  font-family: "Economica", sans-serif;
 }
 /* skills section */
 
@@ -100,10 +109,12 @@ h1 {
   color: #ebeaf2;
   text-align: center;
 }
+
 .skills-lists {
   display: flex;
   justify-content: space-around;
   text-align: left;
+  font-family: "Snippet", sans-serif;
 }
 
 .skills-lists ul {
@@ -120,9 +131,9 @@ h1 {
 }
 
 #projects h3 {
-  font-weight: 600;
-  font-size: 15px;
-  font-family: ;
+  font-size: 20px;
+  font-family: "Ranga", cursive;
+  letter-spacing: 1px;
 }
 .project-grid {
   column-gap: 20px;
@@ -167,23 +178,27 @@ textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: ;
+  font-family: "Snippet", sans-serif;
+  font-size: 15px;
 }
 
 ::placeholder {
   color: #12003a;
-  font-family: ;
+  font-family: "Snippet", sans-serif;
   font-size: 15px;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
   background-color: #af3768;
-  color: white;
+  color: #ebeaf2;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: "Ranga", cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -200,22 +215,32 @@ input[type="submit"]:hover {
 
 footer {
   background-color: #12003a;
-  height: 40px;
+  height: 60px;
   padding: 10px 0;
   width: 100%;
   position: relative;
   left: 0;
   bottom: 0;
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   padding: 5px;
+  font-family: "Ranga", cursive;
+  color: #ebeaf2;
 }
 
 footer p {
   margin-top: 10px;
   color: #ebeaf2;
+  margin-bottom: 5px;
 }
 
+footer span {
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  color: #af3768;
+}
 @media (max-width: 1000px) {
 }
