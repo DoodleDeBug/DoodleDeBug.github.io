@@ -38,6 +38,7 @@ header {
 #navbar li {
   display: inline;
   margin: 0px 20px;
+  font-size: 20px;
 }
 
 #logo {
