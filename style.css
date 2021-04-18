@@ -63,20 +63,24 @@ p {
 #hero {
   background-color: #fad02c;
   text-align: center;
+  background-image: url(assets/code-background.png);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   font-family: ;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   color: #af3768;
 }
 
-#welcome-section p {
-  font-size: 20px;
+#hero p {
+  font-size: 25px;
   font-family: ;
-  color: rgb(255, 166, 0);
-  letter-spacing: 10px;
+  letter-spacing: 15px;
 }
 /* about section */
 
@@ -140,7 +144,6 @@ h1 {
   background-color: #af3768;
   color: #fad02c;
   padding: 10px;
-  box-shadow: 1px 1px 3px;
 }
 
 .divider {
