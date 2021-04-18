@@ -58,6 +58,12 @@ header {
   margin-left: 10px;
 }
 /* global main section */
+#about,
+#projects,
+#contact {
+  scroll-margin-top: 5em;
+}
+
 main {
   position: relative;
   top: 50px;
