@@ -205,6 +205,10 @@ h1 {
   padding: 10px;
 }
 
+.project-tile img {
+  height: 150px;
+}
+
 .git-link {
   color: #12003a;
   font-family: "Snippet", sans-serif;
