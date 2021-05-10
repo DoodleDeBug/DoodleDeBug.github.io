@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 20px;
 }
+
 html {
   min-width: 600px;
 }
@@ -35,7 +37,9 @@ header {
   border-radius: 15px;
   padding: 5px 15px;
 }
-
+#navbar a {
+  font-size: 25px;
+}
 #navbar ul {
   float: right;
 }
@@ -43,7 +47,6 @@ header {
 #navbar li {
   display: inline;
   margin: 0px 20px;
-  font-size: 25px;
 }
 
 #logo {
@@ -53,14 +56,11 @@ header {
   justify-content: center;
 }
 
-#logoImg {
-  height: 35px;
-}
-
 #logoText {
   font-size: 30px;
   margin-left: 10px;
 }
+
 /* global main section */
 #about,
 #projects,
@@ -70,11 +70,6 @@ header {
 
 .parent {
   position: relative;
-}
-
-.parent-img-responsive {
-  width: 100%;
-  height: auto;
 }
 
 main {
@@ -91,7 +86,7 @@ h2 {
   letter-spacing: 3px;
   color: #713770;
   font-family: "Economica", sans-serif;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 p {
@@ -183,7 +178,7 @@ h1 {
 }
 
 #projects h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Ranga", cursive;
   letter-spacing: 1px;
 }
@@ -220,10 +215,9 @@ h1 {
   height: 150px;
 }
 
-.git-link {
+.link {
   color: #12003a;
   font-family: "Snippet", sans-serif;
-  font-size: 15px;
   margin: 10px;
 }
 
@@ -259,13 +253,13 @@ textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   font-family: "Snippet", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 ::placeholder {
   color: #12003a;
   font-family: "Snippet", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -295,7 +289,7 @@ input[type="submit"]:hover {
 
 footer {
   background-color: #12003a;
-  height: 60px;
+  /* height: 60px; */
   padding: 10px 0;
   width: 100%;
   position: relative;
@@ -313,12 +307,25 @@ footer p {
   margin-top: 10px;
   color: #ebeaf2;
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+#logoImg {
+  height: 150px;
+  margin: 0 10px;
 }
 
 footer span {
   letter-spacing: 1px;
+  font-size: 15px;
 }
-
+footer a {
+  font-size: 15px;
+}
 footer a:hover {
   color: #af3768;
 }
