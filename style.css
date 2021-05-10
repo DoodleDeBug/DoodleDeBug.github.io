@@ -211,10 +211,6 @@ h1 {
   width: 300px;
 }
 
-.project-tile img {
-  height: 150px;
-}
-
 .link {
   color: #12003a;
   font-family: "Snippet", sans-serif;
@@ -275,7 +271,7 @@ input[type="submit"] {
   letter-spacing: 1px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker color */
 input[type="submit"]:hover {
   background-color: #9e2053;
 }
@@ -289,7 +285,6 @@ input[type="submit"]:hover {
 
 footer {
   background-color: #12003a;
-  /* height: 60px; */
   padding: 10px 0;
   width: 100%;
   position: relative;
@@ -331,8 +326,6 @@ footer a:hover {
 }
 
 .rocket {
-  /* display: block;
-  position: absolute; */
   top: 0;
   right: 0;
   height: 200px;
