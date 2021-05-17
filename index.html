@@ -21,23 +21,24 @@
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#about" class="scroll-link">About</a></li>
+                        <li><a href="#projects" class="scroll-link"> Projects</a></li>
+                        <li><a href="#contact" class="scroll-link">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-
-
-
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects"> Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
         </nav><!-- end NAV -->
     </header>
-    <main>
+    <main id="home">
         <!-- START WELCOME SECTION -->
-        <section id="hero">
+        <section class="banner">
+            <div class="text-container">
+                <h1>Hello, I'm Madihah</h1>
+                <p>a developer</p>
+            </div>
 
-            <h1>Hello, I'm Madihah</h1>
-            <p>a developer</p>
         </section><!-- END WELCOME SECTION -->
 
         <!-- START about SECTION -->
@@ -136,7 +137,8 @@
     <!-- START FOOTER SECTION -->
     <footer>
         <div class="rocket-parent">
-            <a href="#hero"><img src="assets/rocket.png" alt="Rocket icon" class="rocket"></a>
+            <a href="#home" class="scroll-link top-link"><img src="assets/rocket.png" alt="Rocket icon"
+                    class="rocket"></a>
             <p>Scroll To Top</p>
         </div>
         <p>Developed by <img id="logoImg" src="assets/doodledebug.png" alt="DoodleDeBug Logo"></p>
@@ -144,5 +146,6 @@
                 href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
     </footer><!-- end FOOTER SECTION -->
 </body>
+<script src="./index.js"></script>
 
 </html>
