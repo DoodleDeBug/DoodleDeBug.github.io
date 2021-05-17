@@ -18,6 +18,7 @@
 
 html {
   min-width: 600px;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -155,11 +156,11 @@ ul {
   }
 }
 /* global main section */
-/* #about,
+#about,
 #projects,
 #contact {
-  scroll-margin-top: 5em;
-} */
+  scroll-margin-top: 5.6em;
+}
 
 .parent {
   position: relative;
