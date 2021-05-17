@@ -151,7 +151,7 @@ ul {
     letter-spacing: var(--spacing);
     display: block;
     transition: var(--transition);
-    margin: 0 1rem;
+    margin: 0 1.5rem;
     padding: 0;
   }
 }
@@ -279,6 +279,7 @@ h1 {
   font-size: 25px;
   font-family: "Ranga", cursive;
   letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 .project-grid {
   justify-content: center;
@@ -312,7 +313,7 @@ h1 {
 .link {
   color: #12003a;
   font-family: "Snippet", sans-serif;
-  margin: 10px;
+  margin: 5px;
 }
 
 .bulb {
