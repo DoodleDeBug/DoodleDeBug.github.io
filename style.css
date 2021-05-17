@@ -49,16 +49,20 @@ header {
   margin: 0px 20px;
 }
 
-#logo {
+/* #logo {
   margin-left: 20px;
   float: left;
   display: flex;
   justify-content: center;
-}
+} */
 
 #logoText {
   font-size: 30px;
   margin-left: 10px;
+  margin-left: 20px;
+  float: left;
+  display: flex;
+  justify-content: center;
 }
 
 /* global main section */
