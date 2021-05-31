@@ -202,16 +202,16 @@ p {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 85px;
   font-family: "Rancho", cursive;
   letter-spacing: 10px;
   color: #af3768;
 }
 
 .banner p {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Cutive Mono", monospace;
-  letter-spacing: 12px;
+  letter-spacing: 13px;
 }
 
 .text-container {
@@ -268,7 +268,8 @@ h1 {
 }
 
 #projects a:hover {
-  color: #ebeaf2;
+  
+      text-decoration: underline;
 }
 
 #projects .intro {
@@ -311,7 +312,7 @@ h1 {
 }
 
 .link {
-  color: #12003a;
+  color: #ebeaf2;
   font-family: "Snippet", sans-serif;
   margin: 5px;
 }
