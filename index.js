@@ -53,7 +53,7 @@ function Project(name, git, live, skills) {
 }
 
 const p1 = new Project(
-  "Rock, Paper, Scissors Game",
+  "Rock, Paper, Scissors",
   "https://github.com/DoodleDeBug/rps",
   "https://doodledebug.github.io/rps/",
   "JavaScript, HTML, CSS"
