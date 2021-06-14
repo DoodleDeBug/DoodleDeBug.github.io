@@ -80,6 +80,13 @@ const p4 = new Project(
   "JavaScript, HTML, CSS"
 );
 
-let projects = [p4, p3, p2, p1];
+const p5 = new Project(
+  "Library",
+  "https://github.com/DoodleDeBug/TOP-library",
+  "https://doodledebug.github.io/TOP-library/",
+  "JavaScript, HTML, CSS"
+);
+
+let projects = [p5, p4, p3, p2, p1];
 
 projects.forEach(makeTile);
