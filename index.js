@@ -34,13 +34,13 @@ function makeTile(project) {
   git.setAttribute("target", "_blank");
   tile.appendChild(git);
 
-  if project.live != ""
+  if (project.live != "") {
     live.innerText = "Live Preview";
     live.classList.add("link");
     live.setAttribute("href", project.live);
     live.setAttribute("target", "_blank");
     tile.appendChild(live);
-  end
+  }
 
   skill.innerText = project.skills;
   skill.classList.add("skill-list");
