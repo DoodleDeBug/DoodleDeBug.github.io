@@ -67,9 +67,9 @@ const p2 = new Project(
 );
 
 const p3 = new Project(
-  "Times Tables Game",
-  "https://github.com/DoodleDeBug/times-tables",
-  "https://doodledebug.github.io/times-tables/",
+  "Math Bubble Popper",
+  "https://github.com/DoodleDeBug/math-bubble-shooter",
+  "https://doodledebug.github.io/math-bubble-shooter/",
   "JavaScript, HTML, CSS"
 );
 
@@ -87,6 +87,13 @@ const p5 = new Project(
   "JavaScript, HTML, CSS"
 );
 
-let projects = [p5, p4, p3, p2, p1];
+const p6 = new Project(
+  "Ruby Rock, Paper, Scissors",
+  "https://github.com/DoodleDeBug/rps-challenge",
+  "Run `rackup` in the folder to load the webapp on a local server",
+  "Ruby, Sinatra, TDD, MVC Pattern"
+);
+
+let projects = [p6, p5, p4, p3, p2, p1];
 
 projects.forEach(makeTile);
