@@ -34,11 +34,13 @@ function makeTile(project) {
   git.setAttribute("target", "_blank");
   tile.appendChild(git);
 
-  live.innerText = "Live Preview";
-  live.classList.add("link");
-  live.setAttribute("href", project.live);
-  live.setAttribute("target", "_blank");
-  tile.appendChild(live);
+  if project.live != "
+    live.innerText = "Live Preview";
+    live.classList.add("link");
+    live.setAttribute("href", project.live);
+    live.setAttribute("target", "_blank");
+    tile.appendChild(live);
+  end
 
   skill.innerText = project.skills;
   skill.classList.add("skill-list");
@@ -90,7 +92,7 @@ const p5 = new Project(
 const p6 = new Project(
   "Ruby Rock, Paper, Scissors",
   "https://github.com/DoodleDeBug/rps-challenge",
-  "Run `rackup` in the folder to load the webapp on a local server",
+  "",
   "Ruby, Sinatra, TDD, MVC Pattern"
 );
 
