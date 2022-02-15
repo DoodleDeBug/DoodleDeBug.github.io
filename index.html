@@ -1,119 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.15.3-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>DoodleDeBug | Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- START NAV -->
-        <nav id="navbar">
-            <div class="nav-center">
-                <div class="nav-header">
-                    <span id="logoText">DoodleDeBug</span>
-                    <button class="nav-toggle">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-                <div class="links-container">
-                    <ul class="links">
-                        <li><a href="#about" class="scroll-link">About</a></li>
-                        <li><a href="#projects" class="scroll-link"> Projects</a></li>
-                        <li><a href="#contact" class="scroll-link">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav><!-- end NAV -->
+      <!-- START NAV -->
+      <nav id="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <span id="logoText">DoodleDeBug</span>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#about" class="scroll-link">About</a></li>
+              <li><a href="#projects" class="scroll-link"> Projects</a></li>
+              <li><a href="#contact" class="scroll-link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end NAV -->
     </header>
     <main id="home">
-        <!-- START WELCOME SECTION -->
-        <section class="banner">
-            <div class="text-container">
-                <h1>Hello, I'm DoodleDeBug</h1>
-                <p>a developer</p>
-            </div>
+      <!-- START WELCOME SECTION -->
+      <section class="banner">
+        <div class="text-container">
+          <h1>Hello, I'm DoodleDeBug</h1>
+          <p>a developer</p>
+        </div>
+      </section>
+      <!-- END WELCOME SECTION -->
 
-        </section><!-- END WELCOME SECTION -->
+      <!-- START about SECTION -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          New to the dev world, I'm excited and ready to take on the challenge
+          of becoming a great developer, picking up skills and new technologies
+          as I go! I am interested in both front-end and back-end development,
+          having a great eye for detail as well as loving a good, old logic
+          problem to solve. In my free time, I love to read, bake and fiddle
+          with my new 3D printer. Also, hiking and gardening when the weather is
+          good :)
+        </p>
+      </section>
+      <!-- end about SECTION -->
+      <section class="skills">
+        <h3>Skills</h3>
+        <div class="parent">
+          <img src="assets/skills.png" alt="Statistics icon" class="stats" />
+          <span class="parent-img-responsive"></span>
+        </div>
+        <div class="skills-lists">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (ES6)</li>
+          </ul>
+          <ul>
+            <li>Ruby</li>
+            <li>Rspec</li>
+            <li>Sinatra</li>
+          </ul>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>TDD</li>
+          </ul>
+        </div>
+      </section>
 
-        <!-- START about SECTION -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>New to the dev world, I'm excited and ready to take on the challenge of becoming a great developer,
-                picking up skills and new technologies as I go! I am interested in both front-end and back-end
-                development, having a great eye for detail as well as loving a good, old logic problem to solve. In my
-                free time, I love to read, bake and fiddle with my new 3D printer. Also, hiking and gardening when the
-                weather is good :)</p>
-        </section><!-- end about SECTION -->
-        <section class="skills">
-            <h3>Skills</h3>
-            <div class="parent"><img src="assets/skills.png" alt="Statistics icon" class="stats">
-                <span class="parent-img-responsive"></span>
-            </div>
-            <div class="skills-lists">
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript (ES6)</li>
-                </ul>
-                <ul>
-                    <li>Ruby</li>
-                    <li>Rspec</li>
-                    <li>Sinatra</li>
-                </ul>
-                <ul>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>TDD</li>
-                </ul>
-            </div>
-        </section>
+      <!-- START PROJECTS SECTION -->
+      <section id="projects">
+        <div class="intro">
+          <h2>My Projects</h2>
+          <p>Here are some things I've worked on</p>
+        </div>
+        <div class="parent">
+          <img
+            src="assets/bulb.png"
+            alt="Bulb icon w/ angle brackets inside"
+            class="bulb"
+          />
+          <span class="parent-img-responsive"></span>
+        </div>
+        <div class="project-grid"></div>
+      </section>
+      <!-- end PROJECTS SECTION -->
 
-        <!-- START PROJECTS SECTION -->
-        <section id="projects">
-            <div class="intro">
-                <h2>My Projects</h2>
-                <p>Here are some things I've worked on</p>
-            </div>
-            <div class="parent"><img src="assets/bulb.png" alt="Bulb icon w/ angle brackets inside" class="bulb">
-                <span class="parent-img-responsive"></span>
-            </div>
-            <div class="project-grid"></div>
-        </section><!-- end PROJECTS SECTION -->
+      <!-- <div class="divider"></div>
 
-        <div class="divider"></div>
-
-        <!-- START CONTACT SECTION -->
-        <section id="contact">
-            <h2>Get in touch!</h2>
-            <div class="container">
-                <form action="">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                    <input type="email" id="email" name="email" placeholder="Your email address.." required>
-                    <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-        </section><!-- end CONTACT SECTION -->
+      <section id="contact">
+        <h2>Get in touch!</h2>
+        <div class="container">
+          <form action="">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address.."
+              required
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message.."
+              style="height: 200px"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+      -->
     </main>
 
     <!-- START FOOTER SECTION -->
     <footer>
-        <div class="rocket-parent">
-            <a href="#home" class="scroll-link top-link"><img src="assets/rocket.png" alt="Rocket icon"
-                    class="rocket"></a>
-            <p>Scroll To Top</p>
-        </div>
-        <p>Developed by <img id="logoImg" src="assets/doodledebug.png" alt="DoodleDeBug Logo"></p>
-        <span>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
-                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
-    </footer><!-- end FOOTER SECTION -->
-</body>
-<script src="./index.js"></script>
-
+      <div class="rocket-parent">
+        <a href="#home" class="scroll-link top-link">
+          <img src="assets/rocket.png" alt="Rocket icon" class="rocket" />
+        </a>
+        <p>Scroll To Top</p>
+      </div>
+      <p>
+        Developed by
+        <img id="logoImg" src="assets/doodledebug.png" alt="DoodleDeBug Logo" />
+      </p>
+      <span
+        >Icons made by
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        ></span
+      >
+    </footer>
+    <!-- end FOOTER SECTION -->
+  </body>
+  <script src="./index.js"></script>
 </html>
